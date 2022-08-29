@@ -1,5 +1,5 @@
 import {Blog, Features, Footer, Header, Possibility, Whatgpt3} from "./containers";
-import {Cta, Brand, Navbar} from "./components";
+import {Cta, Brand, Navbar, Article} from "./components";
 import "./App.css"
 
 function App() {
@@ -9,6 +9,7 @@ function App() {
         <Navbar></Navbar>
         <Header></Header>
       </div>
+      <Article></Article>
       <Brand></Brand>
       <Whatgpt3></Whatgpt3>
       <Features></Features>
