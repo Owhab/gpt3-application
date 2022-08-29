@@ -14,7 +14,17 @@ const Menu = () => (
         <p><a href="#blog">Library</a></p>
     </>
 )
+
 // Created Reusable Menu Items Component
+
+// Created Reusable Sign Menu Items
+const MenuSign = () => (
+    <>
+        <p>Sign in</p>
+        <button type='button'>Sign Up</button>
+    </>
+)
+// Created reusable Sign menu Items
     
 
 
@@ -35,9 +45,7 @@ const Navbar = () => {
             </div> 
             
                 <div className="gpt3__navbar-sign">
-                    <p>Sign in</p>
-                    <button type='button'>Sign Up</button>
-                    
+                    <MenuSign/>                  
                 </div>
                 <div className="gpt3__navbar-menu">
                     {
@@ -50,6 +58,7 @@ const Navbar = () => {
                             <div className='gpt3__navbar-menu_container scale-up-center'>
                                 <div className="gpt3__navbar-menu_container_links">
                                     <Menu/>
+                                    <MenuSign/>
                                 </div>
 
                             </div>
