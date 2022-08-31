@@ -17,10 +17,6 @@ const Menu = () => (
 
 // Created Reusable Menu Items Component
 
-
-    
-
-
 const Navbar = () => {
 
     const [toggleMenu, setToggleMenu] = useState(false);
@@ -56,11 +52,9 @@ const Navbar = () => {
                                     <button type='button'>Sign Up</button>
                                 </div>  
                             </div>
-
                         </div>
                     )
                 }
-
             </div>
                 
         </div>

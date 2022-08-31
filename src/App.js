@@ -9,7 +9,7 @@ function App() {
         <Navbar></Navbar>
         <Header></Header>
       </div>
-      <Article></Article>
+      {/* <Article></Article> */}
       <Brand></Brand>
       <Whatgpt3></Whatgpt3>
       <Features></Features>
