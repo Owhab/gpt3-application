@@ -98,7 +98,17 @@
     justify-content: center;
 }
 
-.gpt3__header-image img{
+.gpt3__header-image img {
     height: 100%;
     width: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .gpt3__header {
+        flex-direction: column;
+    }
+
+    .gpt3__header-content {
+        margin: 0 0 3rem;
+    }
 }
