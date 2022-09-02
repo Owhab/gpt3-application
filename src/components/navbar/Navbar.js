@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import "./navbar.css"
-import logo from "./../../assets/logo.svg"
+import logo from "./../../assets/main_logo.webp"
 import {RiCloseLine, RiMenu3Line} from "react-icons/ri"
 
 

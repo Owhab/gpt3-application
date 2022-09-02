@@ -1,7 +1,7 @@
 import React from 'react';
 import "./header.css"
-import people from "./../../assets/people.png"
-import ai from "./../../assets/ai.png"
+import people from "./../../assets/people.webp"
+import ai from "./../../assets/ai.webp"
 
 const Header = () => {
     return (
